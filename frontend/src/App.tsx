@@ -1,10 +1,11 @@
 import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
+import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
 function App() { 
-  return (
+  return ( 
     <>
       <NavBar />
       <div className="container"> 
@@ -17,10 +18,10 @@ function App() {
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Todas vendas</h5>
-            <BarChart />
+            <DonutChart /> 
           </div>
-        </div>
-
+          </div>
+        
         <div className="py-3">
           <h2 className="text-primary">Todas vendas</h2>
           </div> 

@@ -2,16 +2,16 @@ const DataTable = () => {
     return (
         < div className=" table-responsive " >
             < table className=" table table-striped table-sm " >
-                < thead >
+                < thead > 
                     < tr >
                         < th > Dados </ th >
-                        < th > Vendedor </ th >
+                        < th > Vendedor </ th > 
                         < th > Clientes contrato </ th >
                         < th > Negócios fechados </ th >
-                        <o > Valor</ th >
+                        < th > Valor </ th >  
                     </ tr >
                 </ thead >
-                < tbody >
+                < tbody > 
                     < tr >
                         < td > 22/04/2021 </ td >
                         < td > Barry Allen </ td >
